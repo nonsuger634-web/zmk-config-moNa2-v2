@@ -27,14 +27,14 @@ layers:
   - C
   - V
   - B
-  - F14
+  - DELETE
   - F15
   - N
   - M
   - ','
   - .
   - /
-  - {t: LCTRL, h: '4'}
+  - LCTRL
   - LEFT WIN
   - F16
   - BACKSPACE
@@ -44,20 +44,20 @@ layers:
   - {t: SPACE, h: '1'}
   - LEFT ALT
   '1':
-  - '1'
-  - '1'
-  - '2'
-  - '4'
-  - '5'
+  - {t: ▽, type: trans}
+  - KP 1
+  - KP 2
+  - KP 3
+  - {t: ▽, type: trans}
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
+  - KP 4
+  - KP 5
+  - KP 6
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -66,19 +66,19 @@ layers:
   - {t: ▽, type: trans}
   - \
   - {t: ▽, type: trans}
+  - KP 7
+  - KP 8
+  - KP 9
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - '|'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP 0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -206,13 +206,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
