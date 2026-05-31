@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - DELETE
-  - F15
+  - {t: '3', h: toggle}
   - N
   - M
   - ','
@@ -157,7 +157,7 @@ layers:
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   - {t: ▽, type: trans}
   - DELETE
   - PAGE UP
