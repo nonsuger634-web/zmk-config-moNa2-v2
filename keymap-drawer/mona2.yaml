@@ -36,10 +36,10 @@ layers:
   - /
   - LCTRL
   - LEFT WIN
-  - F16
+  - LEFT ALT
   - BACKSPACE
   - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANG2', h: '3'}
+  - {t: '&to_layer_0 LA(GRAVE)', h: '3'}
   - {t: '&to_layer_0 LANG1', h: '3'}
   - {t: SPACE, h: '1'}
   - LEFT ALT
@@ -50,8 +50,8 @@ layers:
   - KP 3
   - {t: ▽, type: trans}
   - '6'
-  - '7'
-  - '8'
+  - '{'
+  - '}'
   - '9'
   - '0'
   - {t: ▽, type: trans}
@@ -306,3 +306,5 @@ combos:
   k: {t: ESC, h: '4'}
 - p: [11, 12]
   k: TAB
+- p: [34, 19]
+  k: Gui+RIGHT
